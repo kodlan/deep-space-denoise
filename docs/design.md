@@ -26,12 +26,6 @@ _Open questions:_
 - Experiment tracking: MLflow
 - Hyperparameter optimization: Optuna
 
-- Defaults:
-  - Optimizer: AdamW
-  - Scheduler: cosine or step LR
-  - Batch size: TBD per GPU
-  - Mixed precision: enabled (where supported)
-
 _Open questions:_
 - Q: What optimizer can be used?
 - Q: How can accuracy be calculated?
@@ -39,7 +33,6 @@ _Open questions:_
 ## 4. Evaluation
 
 ## 5. Inference & deployment
-
 
 - Export:
   - ONNX export from trained model
