@@ -13,6 +13,7 @@ This document describes all datasets used in the project, including:
 - **Source**: https://archive.stsci.edu/home, https://archive.stsci.edu/search-interfaces/hla?utm_source=chatgpt.com
 - **License**:   
 - **Data format**:
+- **Notes**: MAST hosts all calibrated data from Hubble, JWST, TESS, Kepler, etc., including science-grade FITS images (often many thousands of pixels across). Requires scripts to access the images.
 
 ## Dataset D1 – Top 100 Hubble Telescope Images
 - **ID**: D1  
@@ -20,12 +21,10 @@ This document describes all datasets used in the project, including:
 - **Source**: https://www.kaggle.com/datasets/redwankarimsony/top-100-hubble-telescope-images/data
 - **License**: ?  
 - **Data format**: FITS
-- **Notes**: MAST hosts all calibrated data from Hubble, JWST, TESS, Kepler, etc., including science-grade FITS images (often many thousands of pixels across). Requires scripts to access the images.
-  
-<!--
 - **Download**:
-  - Script: `scripts/download_data.sh --dataset D1`
-  - Output path: `data/raw/D1/`
+  - Script: `src/data/d1/download_dataset.sh`
+  - Output path: `data/raw/d1/`
+<!--
 - **Preprocessing**:
   - Convert to linear RGB (if necessary)
   - Resize / crop into 512×512 patches

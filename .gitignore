@@ -210,4 +210,6 @@ __marimo__/
 # ignore images from datasets
 /data/raw/d1/*.zip
 /data/raw/d1/images
+/data/raw/d2/*.zip
+/data/raw/d2/images
 
