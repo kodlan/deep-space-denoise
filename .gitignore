@@ -208,5 +208,6 @@ __marimo__/
 /.idea/
 
 # ignore images from datasets
-/data/raw/d1/
+/data/raw/d1/*.zip
+/data/raw/d1/images
 
