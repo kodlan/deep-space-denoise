@@ -38,6 +38,9 @@ This document describes all datasets used in the project, including:
 - **Source**: https://www.kaggle.com/datasets/harshitstark/astronomy-picture-of-the-day-data-collection  
 - **License**: MIT
 - **Data format**: JPG
+- **Download**:
+  - Script: `src/data/d2/download_dataset.sh`
+  - Output path: `data/raw/d2/`
 
 ## Dataset D3 – James Webb Telescope Images (Original size)
 

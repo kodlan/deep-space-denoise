@@ -10,6 +10,7 @@ produce a denoised version that preserves fine astronomical details (granulation
 
 ## Repository structure
 
+- `data/raw` - raw images for datasets
 - `docs/` — design, etc
 
 ## Getting started
