@@ -12,6 +12,9 @@ produce a denoised version that preserves fine astronomical details (granulation
 
 - `data/raw` - raw images for datasets
 - `docs/` — design, etc
+  - datasets.md - datasets used in the project
+  - requirements.md - project requirements
+- `notebooks/`- notebook with some experiments
 
 ## Getting started
 
