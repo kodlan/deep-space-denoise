@@ -14,6 +14,7 @@ produce a denoised version that preserves fine astronomical details (granulation
 - `docs/` — design, etc
   - datasets.md - datasets used in the project
   - requirements.md - project requirements
+  - architecture.md - some architecture considerations
 - `notebooks/`- notebook with some experiments
 
 ## Getting started
