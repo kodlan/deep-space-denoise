@@ -213,3 +213,4 @@ __marimo__/
 /data/raw/d2/*.zip
 /data/raw/d2/images
 
+/data/raw/processed/*.png
